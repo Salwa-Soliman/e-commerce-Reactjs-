@@ -1,0 +1,23 @@
+.navbar-nav a:hover {
+  color: #ff3d00 !important;
+}
+
+.navbar-nav a {
+  transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+}
+.navbar {
+  box-shadow: 0 0 15px 0 #0000004f;
+}
+/* .btn-outline-warning {
+  border-color: #ff3d00 !important;
+  color: #ff3d00 !important;
+}
+.btn-outline-warning:hover {
+  border-color: #ff3d00 !important;
+  color: #fff !important;
+  background-color: #ff3d00 !important;
+} */

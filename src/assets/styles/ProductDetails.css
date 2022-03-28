@@ -1,0 +1,35 @@
+.image-container {
+  max-height: 100%;
+  /* width: 500px; */
+
+  display: flex;
+  justify-content: center;
+}
+img {
+  height: 100% !important;
+  max-width: 300px;
+}
+
+.title:hover {
+  color: #049ab8;
+  cursor: pointer;
+}
+
+.product-details {
+  min-height: 100vh;
+}
+
+button.card-btn {
+  box-shadow: inset 87px -7px 25px 0 rgba(29, 28, 28, 0);
+  transition: 0.4s ease-in;
+  -webkit-transition: 0.4s ease-in;
+  -moz-transition: 0.4s ease-in;
+  -ms-transition: 0.4s ease-in;
+  -o-transition: 0.4s ease-in;
+}
+
+button.card-btn:hover {
+  background-color: #0dcaf0 !important;
+  color: white !important;
+  box-shadow: inset 0px 0px 20px 1px rgb(29 28 28 / 66%);
+}
